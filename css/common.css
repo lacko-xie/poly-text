@@ -1,0 +1,172 @@
+/* 版心 */
+.wrapper {
+    width: 1104px;
+    margin: 0 auto;
+}
+
+/* 标题栏 */
+.header {
+    position: relative;
+    height: 90px;
+    background-color: #ffff;
+}
+.logo {
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-left: 180px;
+    width: 140px;
+    height: 50px;
+}
+.logo a {
+    display: block;
+    width: 140px;
+    height: 50px;
+    background-image: url(../images/集团logo\ 1.png);
+}
+.search {
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-left: 175px;
+    width: 450px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    border-radius: 4px;
+}
+.search .text {
+    display: inline-block;
+    vertical-align: top;
+    width: 380px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 4px 0 0 4px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    position: relative;
+    z-index: 10;
+}
+.search input {
+    width: 100%;
+    height: 48px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+}
+.search button {
+    display: inline-block;
+    width: 63px;
+    height: 48px;
+    background-color: #4e6ef2;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    font-size: 28px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.user {
+    float: right;
+    position: absolute;
+    top: 25px;
+    left: 1180px;
+    height: 50px;
+}
+.user span {
+    float: left;
+}
+.user h4 {
+    float: right;
+    margin-left: 12px;
+    margin-top: 13px;
+}
+.user .iconfont {
+    font-size: 30px;
+}
+
+/* tab */
+.nav {
+    padding-left: 12px;
+    height: 60px;
+    background-color: #f7f7f799;
+
+}
+.nav li {
+    float: left;
+    position: relative;
+    margin-right: 30px;
+    line-height: 60px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.nav li a {
+    padding-bottom: 14px;
+}
+.nav li a:hover  {
+    color: #7897f2;
+    border-bottom: 4px solid #7897f2;
+}
+.nav li:nth-child(2) a:before {
+    content: "Hot";
+    position: absolute;
+    top: 6px;
+    right: -23px;
+    padding: 2px 4px;
+    background: #ffa000;
+    border-radius: 2px 2px 2px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;
+}
+.nav li:nth-child(3) a:before {
+    content: "New";
+    position: absolute;
+    top: 6px;
+    right: -27px;
+    padding: 2px 4px;
+    background: #43a047;
+    border-radius: 2px 2px 2px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;
+}
+
+
+/* 版权 */
+.footer {
+    position: relative;
+    height: 288px;
+    background-color: #fff;
+}
+.footer img {
+    position: absolute;
+    top: 40px;
+    left: 590px;
+}
+.footer .box {
+    position: absolute;
+    top: 163px;
+    left: 603px;
+    width: 276px;
+    height: 25px;
+}
+.footer li {
+    float: left;
+}
+.footer h4 {
+    position: absolute;
+    top: 208px;
+    left: 330px;
+
+    font-family: 'PingFang SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999999;
+}
+

@@ -1,0 +1,51 @@
+{
+  "id": "3529366",
+  "name": "poly",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2076319",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e8a3",
+      "unicode_decimal": 59555
+    },
+    {
+      "icon_id": "777843",
+      "name": "赞",
+      "font_class": "icon",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "4933351",
+      "name": "可见",
+      "font_class": "kejian",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    },
+    {
+      "icon_id": "21528890",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e740",
+      "unicode_decimal": 59200
+    },
+    {
+      "icon_id": "30028622",
+      "name": "我的-02",
+      "font_class": "iconhuaban1-10",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "30175727",
+      "name": "Chevron-Right",
+      "font_class": "Chevron-Right",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    }
+  ]
+}
